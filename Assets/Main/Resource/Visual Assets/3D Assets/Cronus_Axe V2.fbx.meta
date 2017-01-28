@@ -205,7 +205,12 @@ ModelImporter:
     4300022: KC_Cape
     4300024: KC_RightShoulderPad
     4300026: KC_Head
-    7400000: Take 001
+    7400000: Idle
+    7400002: Walk
+    7400004: Attack
+    7400006: Skill_FrontSmash
+    7400008: Skill_SpiritAxe
+    7400010: Death
     9500000: //RootNode
     13700000: KC_Cape
     13700002: KC_Smexy_Hot_Body
@@ -229,7 +234,1147 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FP3
+        weight: 1
+      - path: FP3/polySurface50
+        weight: 1
+      - path: FP3/polySurface50/transform2
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint26
+        weight: 1
+      - path: joint36/joint26/joint27
+        weight: 1
+      - path: joint36/joint26/joint27/joint28
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: joint36/joint26/joint27/KC_LeftKnee
+        weight: 1
+      - path: joint36/joint31
+        weight: 1
+      - path: joint36/joint31/joint32
+        weight: 1
+      - path: joint36/joint31/joint32/joint33
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint36/joint31/joint32/KC_RightKnee
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/KC_lefthand
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/KC_lefthand/KC_Axe
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/KC_righthand
+        weight: 1
+      - path: joint70
+        weight: 1
+      - path: joint70/joint71
+        weight: 1
+      - path: joint70/joint71/joint72
+        weight: 1
+      - path: joint70/joint71/joint72/joint73
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75/joint76
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75/joint76/joint77
+        weight: 1
+      - path: KC_Cape
+        weight: 1
+      - path: KC_Head
+        weight: 1
+      - path: KC_LefArmGuard
+        weight: 1
+      - path: KC_LeftShoulderPad
+        weight: 1
+      - path: KC_RightArmGuard
+        weight: 1
+      - path: KC_RightShoulderPad
+        weight: 1
+      - path: nurbsCircle34
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36/nurbsCircle43
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36/nurbsCircle43/KC_Helmet
+        weight: 1
+      - path: pasted__pTorus1
+        weight: 1
+      - path: pCube12
+        weight: 1
+      - path: pCube12/transform1
+        weight: 1
+      - path: pCube13
+        weight: 1
+      - path: pCube13/transform3
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/KC_Smexy_Hot_Body
+        weight: 1
+      - path: pCube14/transform4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FP3
+        weight: 1
+      - path: FP3/polySurface50
+        weight: 1
+      - path: FP3/polySurface50/transform2
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint26
+        weight: 1
+      - path: joint36/joint26/joint27
+        weight: 1
+      - path: joint36/joint26/joint27/joint28
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: joint36/joint26/joint27/KC_LeftKnee
+        weight: 1
+      - path: joint36/joint31
+        weight: 1
+      - path: joint36/joint31/joint32
+        weight: 1
+      - path: joint36/joint31/joint32/joint33
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint36/joint31/joint32/KC_RightKnee
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/KC_lefthand
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/KC_lefthand/KC_Axe
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/KC_righthand
+        weight: 1
+      - path: joint70
+        weight: 1
+      - path: joint70/joint71
+        weight: 1
+      - path: joint70/joint71/joint72
+        weight: 1
+      - path: joint70/joint71/joint72/joint73
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75/joint76
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75/joint76/joint77
+        weight: 1
+      - path: KC_Cape
+        weight: 1
+      - path: KC_Head
+        weight: 1
+      - path: KC_LefArmGuard
+        weight: 1
+      - path: KC_LeftShoulderPad
+        weight: 1
+      - path: KC_RightArmGuard
+        weight: 1
+      - path: KC_RightShoulderPad
+        weight: 1
+      - path: nurbsCircle34
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36/nurbsCircle43
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36/nurbsCircle43/KC_Helmet
+        weight: 1
+      - path: pasted__pTorus1
+        weight: 1
+      - path: pCube12
+        weight: 1
+      - path: pCube12/transform1
+        weight: 1
+      - path: pCube13
+        weight: 1
+      - path: pCube13/transform3
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/KC_Smexy_Hot_Body
+        weight: 1
+      - path: pCube14/transform4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 95
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FP3
+        weight: 1
+      - path: FP3/polySurface50
+        weight: 1
+      - path: FP3/polySurface50/transform2
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint26
+        weight: 1
+      - path: joint36/joint26/joint27
+        weight: 1
+      - path: joint36/joint26/joint27/joint28
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: joint36/joint26/joint27/KC_LeftKnee
+        weight: 1
+      - path: joint36/joint31
+        weight: 1
+      - path: joint36/joint31/joint32
+        weight: 1
+      - path: joint36/joint31/joint32/joint33
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint36/joint31/joint32/KC_RightKnee
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/KC_lefthand
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/KC_lefthand/KC_Axe
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/KC_righthand
+        weight: 1
+      - path: joint70
+        weight: 1
+      - path: joint70/joint71
+        weight: 1
+      - path: joint70/joint71/joint72
+        weight: 1
+      - path: joint70/joint71/joint72/joint73
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75/joint76
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75/joint76/joint77
+        weight: 1
+      - path: KC_Cape
+        weight: 1
+      - path: KC_Head
+        weight: 1
+      - path: KC_LefArmGuard
+        weight: 1
+      - path: KC_LeftShoulderPad
+        weight: 1
+      - path: KC_RightArmGuard
+        weight: 1
+      - path: KC_RightShoulderPad
+        weight: 1
+      - path: nurbsCircle34
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36/nurbsCircle43
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36/nurbsCircle43/KC_Helmet
+        weight: 1
+      - path: pasted__pTorus1
+        weight: 1
+      - path: pCube12
+        weight: 1
+      - path: pCube12/transform1
+        weight: 1
+      - path: pCube13
+        weight: 1
+      - path: pCube13/transform3
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/KC_Smexy_Hot_Body
+        weight: 1
+      - path: pCube14/transform4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Skill_FrontSmash
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FP3
+        weight: 1
+      - path: FP3/polySurface50
+        weight: 1
+      - path: FP3/polySurface50/transform2
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint26
+        weight: 1
+      - path: joint36/joint26/joint27
+        weight: 1
+      - path: joint36/joint26/joint27/joint28
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: joint36/joint26/joint27/KC_LeftKnee
+        weight: 1
+      - path: joint36/joint31
+        weight: 1
+      - path: joint36/joint31/joint32
+        weight: 1
+      - path: joint36/joint31/joint32/joint33
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint36/joint31/joint32/KC_RightKnee
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/KC_lefthand
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/KC_lefthand/KC_Axe
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/KC_righthand
+        weight: 1
+      - path: joint70
+        weight: 1
+      - path: joint70/joint71
+        weight: 1
+      - path: joint70/joint71/joint72
+        weight: 1
+      - path: joint70/joint71/joint72/joint73
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75/joint76
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75/joint76/joint77
+        weight: 1
+      - path: KC_Cape
+        weight: 1
+      - path: KC_Head
+        weight: 1
+      - path: KC_LefArmGuard
+        weight: 1
+      - path: KC_LeftShoulderPad
+        weight: 1
+      - path: KC_RightArmGuard
+        weight: 1
+      - path: KC_RightShoulderPad
+        weight: 1
+      - path: nurbsCircle34
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36/nurbsCircle43
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36/nurbsCircle43/KC_Helmet
+        weight: 1
+      - path: pasted__pTorus1
+        weight: 1
+      - path: pCube12
+        weight: 1
+      - path: pCube12/transform1
+        weight: 1
+      - path: pCube13
+        weight: 1
+      - path: pCube13/transform3
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/KC_Smexy_Hot_Body
+        weight: 1
+      - path: pCube14/transform4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Skill_SpiritAxe
+      takeName: Take 001
+      firstFrame: 425
+      lastFrame: 470
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FP3
+        weight: 1
+      - path: FP3/polySurface50
+        weight: 1
+      - path: FP3/polySurface50/transform2
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint26
+        weight: 1
+      - path: joint36/joint26/joint27
+        weight: 1
+      - path: joint36/joint26/joint27/joint28
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: joint36/joint26/joint27/KC_LeftKnee
+        weight: 1
+      - path: joint36/joint31
+        weight: 1
+      - path: joint36/joint31/joint32
+        weight: 1
+      - path: joint36/joint31/joint32/joint33
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint36/joint31/joint32/KC_RightKnee
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/KC_lefthand
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/KC_lefthand/KC_Axe
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/KC_righthand
+        weight: 1
+      - path: joint70
+        weight: 1
+      - path: joint70/joint71
+        weight: 1
+      - path: joint70/joint71/joint72
+        weight: 1
+      - path: joint70/joint71/joint72/joint73
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75/joint76
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75/joint76/joint77
+        weight: 1
+      - path: KC_Cape
+        weight: 1
+      - path: KC_Head
+        weight: 1
+      - path: KC_LefArmGuard
+        weight: 1
+      - path: KC_LeftShoulderPad
+        weight: 1
+      - path: KC_RightArmGuard
+        weight: 1
+      - path: KC_RightShoulderPad
+        weight: 1
+      - path: nurbsCircle34
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36/nurbsCircle43
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36/nurbsCircle43/KC_Helmet
+        weight: 1
+      - path: pasted__pTorus1
+        weight: 1
+      - path: pCube12
+        weight: 1
+      - path: pCube12/transform1
+        weight: 1
+      - path: pCube13
+        weight: 1
+      - path: pCube13/transform3
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/KC_Smexy_Hot_Body
+        weight: 1
+      - path: pCube14/transform4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 230
+      lastFrame: 350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FP3
+        weight: 1
+      - path: FP3/polySurface50
+        weight: 1
+      - path: FP3/polySurface50/transform2
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint26
+        weight: 1
+      - path: joint36/joint26/joint27
+        weight: 1
+      - path: joint36/joint26/joint27/joint28
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: joint36/joint26/joint27/KC_LeftKnee
+        weight: 1
+      - path: joint36/joint31
+        weight: 1
+      - path: joint36/joint31/joint32
+        weight: 1
+      - path: joint36/joint31/joint32/joint33
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint36/joint31/joint32/KC_RightKnee
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/KC_lefthand
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/KC_lefthand/KC_Axe
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/KC_righthand
+        weight: 1
+      - path: joint70
+        weight: 1
+      - path: joint70/joint71
+        weight: 1
+      - path: joint70/joint71/joint72
+        weight: 1
+      - path: joint70/joint71/joint72/joint73
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75/joint76
+        weight: 1
+      - path: joint70/joint71/joint72/joint73/joint74/joint75/joint76/joint77
+        weight: 1
+      - path: KC_Cape
+        weight: 1
+      - path: KC_Head
+        weight: 1
+      - path: KC_LefArmGuard
+        weight: 1
+      - path: KC_LeftShoulderPad
+        weight: 1
+      - path: KC_RightArmGuard
+        weight: 1
+      - path: KC_RightShoulderPad
+        weight: 1
+      - path: nurbsCircle34
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36/nurbsCircle43
+        weight: 1
+      - path: nurbsCircle34/nurbsCircle37/nurbsCircle27/nurbsCircle35/nurbsCircle36/nurbsCircle43/KC_Helmet
+        weight: 1
+      - path: pasted__pTorus1
+        weight: 1
+      - path: pCube12
+        weight: 1
+      - path: pCube12/transform1
+        weight: 1
+      - path: pCube13
+        weight: 1
+      - path: pCube13/transform3
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/KC_Smexy_Hot_Body
+        weight: 1
+      - path: pCube14/transform4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -255,6 +1400,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -265,7 +1411,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1

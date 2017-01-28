@@ -177,7 +177,10 @@ ModelImporter:
     4300022: GunnerBracer1
     4300024: GunnerHelmet
     4300026: Flinflock2
-    7400000: Take 001
+    7400000: Idle
+    7400002: Run
+    7400004: Attack
+    7400006: Death
     9500000: //RootNode
     13700000: GunnerArnor
     13700002: GunnerBoots1
@@ -205,7 +208,687 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Flinflock2
+        weight: 1
+      - path: FP3
+        weight: 1
+      - path: FP3/polySurface50
+        weight: 1
+      - path: FP3/polySurface50/transform2
+        weight: 1
+      - path: group3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/GunnerFace
+        weight: 1
+      - path: GunnerBracer1
+        weight: 1
+      - path: GunnerBracer2
+        weight: 1
+      - path: GunnerHelmet
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint26
+        weight: 1
+      - path: joint36/joint26/joint27
+        weight: 1
+      - path: joint36/joint26/joint27/joint28
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: joint36/joint31
+        weight: 1
+      - path: joint36/joint31/joint32
+        weight: 1
+      - path: joint36/joint31/joint32/joint33
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/GunnerBracelet1
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/GunnerShoulderArmor1
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/GunnerShoulderArmor2
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: pCube12
+        weight: 1
+      - path: pCube12/transform1
+        weight: 1
+      - path: pCube13
+        weight: 1
+      - path: pCube13/transform3
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/GunnerBracelet2
+        weight: 1
+      - path: pCube14/GunnerHands2
+        weight: 1
+      - path: pCube14/GunnerHands3
+        weight: 1
+      - path: pCube14/polySurface62
+        weight: 1
+      - path: pCube14/polySurface62/GunnerArnor
+        weight: 1
+      - path: pCube14/polySurface62/GunnerBoots1
+        weight: 1
+      - path: pCube14/polySurface62/GunnerBoots2
+        weight: 1
+      - path: pCube14/transform4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 65
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Flinflock2
+        weight: 1
+      - path: FP3
+        weight: 1
+      - path: FP3/polySurface50
+        weight: 1
+      - path: FP3/polySurface50/transform2
+        weight: 1
+      - path: group3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/GunnerFace
+        weight: 1
+      - path: GunnerBracer1
+        weight: 1
+      - path: GunnerBracer2
+        weight: 1
+      - path: GunnerHelmet
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint26
+        weight: 1
+      - path: joint36/joint26/joint27
+        weight: 1
+      - path: joint36/joint26/joint27/joint28
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: joint36/joint31
+        weight: 1
+      - path: joint36/joint31/joint32
+        weight: 1
+      - path: joint36/joint31/joint32/joint33
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/GunnerBracelet1
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/GunnerShoulderArmor1
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/GunnerShoulderArmor2
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: pCube12
+        weight: 1
+      - path: pCube12/transform1
+        weight: 1
+      - path: pCube13
+        weight: 1
+      - path: pCube13/transform3
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/GunnerBracelet2
+        weight: 1
+      - path: pCube14/GunnerHands2
+        weight: 1
+      - path: pCube14/GunnerHands3
+        weight: 1
+      - path: pCube14/polySurface62
+        weight: 1
+      - path: pCube14/polySurface62/GunnerArnor
+        weight: 1
+      - path: pCube14/polySurface62/GunnerBoots1
+        weight: 1
+      - path: pCube14/polySurface62/GunnerBoots2
+        weight: 1
+      - path: pCube14/transform4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Flinflock2
+        weight: 1
+      - path: FP3
+        weight: 1
+      - path: FP3/polySurface50
+        weight: 1
+      - path: FP3/polySurface50/transform2
+        weight: 1
+      - path: group3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/GunnerFace
+        weight: 1
+      - path: GunnerBracer1
+        weight: 1
+      - path: GunnerBracer2
+        weight: 1
+      - path: GunnerHelmet
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint26
+        weight: 1
+      - path: joint36/joint26/joint27
+        weight: 1
+      - path: joint36/joint26/joint27/joint28
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: joint36/joint31
+        weight: 1
+      - path: joint36/joint31/joint32
+        weight: 1
+      - path: joint36/joint31/joint32/joint33
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/GunnerBracelet1
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/GunnerShoulderArmor1
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/GunnerShoulderArmor2
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: pCube12
+        weight: 1
+      - path: pCube12/transform1
+        weight: 1
+      - path: pCube13
+        weight: 1
+      - path: pCube13/transform3
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/GunnerBracelet2
+        weight: 1
+      - path: pCube14/GunnerHands2
+        weight: 1
+      - path: pCube14/GunnerHands3
+        weight: 1
+      - path: pCube14/polySurface62
+        weight: 1
+      - path: pCube14/polySurface62/GunnerArnor
+        weight: 1
+      - path: pCube14/polySurface62/GunnerBoots1
+        weight: 1
+      - path: pCube14/polySurface62/GunnerBoots2
+        weight: 1
+      - path: pCube14/transform4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Flinflock2
+        weight: 1
+      - path: FP3
+        weight: 1
+      - path: FP3/polySurface50
+        weight: 1
+      - path: FP3/polySurface50/transform2
+        weight: 1
+      - path: group3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/GunnerFace
+        weight: 1
+      - path: GunnerBracer1
+        weight: 1
+      - path: GunnerBracer2
+        weight: 1
+      - path: GunnerHelmet
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint26
+        weight: 1
+      - path: joint36/joint26/joint27
+        weight: 1
+      - path: joint36/joint26/joint27/joint28
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29
+        weight: 1
+      - path: joint36/joint26/joint27/joint28/joint29/joint30
+        weight: 1
+      - path: joint36/joint31
+        weight: 1
+      - path: joint36/joint31/joint32
+        weight: 1
+      - path: joint36/joint31/joint32/joint33
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint36/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/GunnerBracelet1
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/GunnerShoulderArmor1
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/GunnerShoulderArmor2
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: pCube12
+        weight: 1
+      - path: pCube12/transform1
+        weight: 1
+      - path: pCube13
+        weight: 1
+      - path: pCube13/transform3
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/GunnerBracelet2
+        weight: 1
+      - path: pCube14/GunnerHands2
+        weight: 1
+      - path: pCube14/GunnerHands3
+        weight: 1
+      - path: pCube14/polySurface62
+        weight: 1
+      - path: pCube14/polySurface62/GunnerArnor
+        weight: 1
+      - path: pCube14/polySurface62/GunnerBoots1
+        weight: 1
+      - path: pCube14/polySurface62/GunnerBoots2
+        weight: 1
+      - path: pCube14/transform4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -231,6 +914,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -241,7 +925,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1

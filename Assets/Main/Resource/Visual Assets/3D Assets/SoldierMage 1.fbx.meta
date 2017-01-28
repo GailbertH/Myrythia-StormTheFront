@@ -164,7 +164,10 @@ ModelImporter:
     4300024: Ring_3
     4300026: LeftBracelet
     4300028: Buhok
-    7400000: Take 001
+    7400000: Idle
+    7400002: Attack
+    7400004: Walk
+    7400006: Death
     9500000: //RootNode
     13700000: LowerBody
     13700002: polySurface70
@@ -189,7 +192,599 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collar
+        weight: 1
+      - path: group3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/pasted__HEAD1
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/pasted__HEAD1/Hood
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/pasted__HEAD1/polySurface70
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group4/Buhok
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: joint70
+        weight: 1
+      - path: joint70/joint71
+        weight: 1
+      - path: joint70/joint71/joint72
+        weight: 1
+      - path: joint70/joint71/joint72/joint75
+        weight: 1
+      - path: LeftBracelet
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/LeftHand
+        weight: 1
+      - path: pCube14/polySurface62
+        weight: 1
+      - path: pCube14/polySurface62/LowerBody
+        weight: 1
+      - path: pCube14/polySurface62/UpperBody
+        weight: 1
+      - path: pCube14/RightBracelet
+        weight: 1
+      - path: pCube14/RightHand
+        weight: 1
+      - path: Staff
+        weight: 1
+      - path: Staff/Orb
+        weight: 1
+      - path: Staff/Orb/Ring_1
+        weight: 1
+      - path: Staff/Orb/Ring_2
+        weight: 1
+      - path: Staff/Orb/Ring_3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collar
+        weight: 1
+      - path: group3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/pasted__HEAD1
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/pasted__HEAD1/Hood
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/pasted__HEAD1/polySurface70
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group4/Buhok
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: joint70
+        weight: 1
+      - path: joint70/joint71
+        weight: 1
+      - path: joint70/joint71/joint72
+        weight: 1
+      - path: joint70/joint71/joint72/joint75
+        weight: 1
+      - path: LeftBracelet
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/LeftHand
+        weight: 1
+      - path: pCube14/polySurface62
+        weight: 1
+      - path: pCube14/polySurface62/LowerBody
+        weight: 1
+      - path: pCube14/polySurface62/UpperBody
+        weight: 1
+      - path: pCube14/RightBracelet
+        weight: 1
+      - path: pCube14/RightHand
+        weight: 1
+      - path: Staff
+        weight: 1
+      - path: Staff/Orb
+        weight: 1
+      - path: Staff/Orb/Ring_1
+        weight: 1
+      - path: Staff/Orb/Ring_2
+        weight: 1
+      - path: Staff/Orb/Ring_3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collar
+        weight: 1
+      - path: group3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/pasted__HEAD1
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/pasted__HEAD1/Hood
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/pasted__HEAD1/polySurface70
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group4/Buhok
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: joint70
+        weight: 1
+      - path: joint70/joint71
+        weight: 1
+      - path: joint70/joint71/joint72
+        weight: 1
+      - path: joint70/joint71/joint72/joint75
+        weight: 1
+      - path: LeftBracelet
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/LeftHand
+        weight: 1
+      - path: pCube14/polySurface62
+        weight: 1
+      - path: pCube14/polySurface62/LowerBody
+        weight: 1
+      - path: pCube14/polySurface62/UpperBody
+        weight: 1
+      - path: pCube14/RightBracelet
+        weight: 1
+      - path: pCube14/RightHand
+        weight: 1
+      - path: Staff
+        weight: 1
+      - path: Staff/Orb
+        weight: 1
+      - path: Staff/Orb/Ring_1
+        weight: 1
+      - path: Staff/Orb/Ring_2
+        weight: 1
+      - path: Staff/Orb/Ring_3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Collar
+        weight: 1
+      - path: group3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/pasted__HEAD1
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/pasted__HEAD1/Hood
+        weight: 1
+      - path: group3/HEAD_NI_FP1:group/HEAD_NI_FP1:pasted__FP3/pasted__HEAD1/polySurface70
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group4/Buhok
+        weight: 1
+      - path: joint36
+        weight: 1
+      - path: joint36/joint37
+        weight: 1
+      - path: joint36/joint37/joint39
+        weight: 1
+      - path: joint36/joint37/joint39/joint40
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint41/joint42/joint43
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint49/joint50/joint51/joint52
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint44/joint45/joint46/joint47/joint48/joint53/joint54/joint55/joint56
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68
+        weight: 1
+      - path: joint36/joint37/joint39/joint40/joint57/joint58/joint59/joint60/joint61/joint66/joint67/joint68/joint69
+        weight: 1
+      - path: joint70
+        weight: 1
+      - path: joint70/joint71
+        weight: 1
+      - path: joint70/joint71/joint72
+        weight: 1
+      - path: joint70/joint71/joint72/joint75
+        weight: 1
+      - path: LeftBracelet
+        weight: 1
+      - path: pCube14
+        weight: 1
+      - path: pCube14/LeftHand
+        weight: 1
+      - path: pCube14/polySurface62
+        weight: 1
+      - path: pCube14/polySurface62/LowerBody
+        weight: 1
+      - path: pCube14/polySurface62/UpperBody
+        weight: 1
+      - path: pCube14/RightBracelet
+        weight: 1
+      - path: pCube14/RightHand
+        weight: 1
+      - path: Staff
+        weight: 1
+      - path: Staff/Orb
+        weight: 1
+      - path: Staff/Orb/Ring_1
+        weight: 1
+      - path: Staff/Orb/Ring_2
+        weight: 1
+      - path: Staff/Orb/Ring_3
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -215,6 +810,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -225,7 +821,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1

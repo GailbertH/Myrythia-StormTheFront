@@ -268,7 +268,13 @@ ModelImporter:
     4300020: GH_ShoulderArmor
     4300022: GH_Knife
     4300024: GH_Cape
-    7400000: Take 001
+    7400000: Idle
+    7400002: MeleeAttack
+    7400004: RangedAttack
+    7400006: Skill_Teleport
+    7400008: Skill_KnifeBarrage
+    7400010: Death
+    7400012: Run
     9500000: //RootNode
     13700000: GH_Body
     13700002: GH_Cape
@@ -297,7 +303,1883 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boss3:FP3
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50/Boss3:transform2
+        weight: 1
+      - path: Boss3:group3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3/GH_FAce
+        weight: 1
+      - path: Boss3:joint36
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29/Boss3:joint30
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34/Boss3:joint35
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42/Boss3:joint43
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51/Boss3:joint52
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55/Boss3:joint56
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/GH_LeftBracelet
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64/Boss3:joint65
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68/Boss3:joint69
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78/Boss3:joint79
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88/Boss3:joint89
+        weight: 1
+      - path: Boss3:nurbsCircle34
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22/GH_ShoulderArmor
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43/GH_Hair1
+        weight: 1
+      - path: Boss3:pCube12
+        weight: 1
+      - path: Boss3:pCube12/Boss3:transform1
+        weight: 1
+      - path: Boss3:pCube13
+        weight: 1
+      - path: Boss3:pCube13/Boss3:transform3
+        weight: 1
+      - path: Boss3:pCube14
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73/GH_Bracer
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_LeftBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_RightBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:transform4
+        weight: 1
+      - path: Boss3:pCube14/GH_Body
+        weight: 1
+      - path: Boss3:pCube14/GH_LeftHand
+        weight: 1
+      - path: Boss3:pCube14/GH_RightBraclet
+        weight: 1
+      - path: Boss3:pCube14/GH_RightHand
+        weight: 1
+      - path: GH_Cape
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1/GH_Hair_Shoulderpad:transform15
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84/GH_Hair_Shoulderpad:transform14
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:transform11
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1/GH_Hair_Shoulderpad:transform13
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82/GH_Hair_Shoulderpad:transform12
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:transform10
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81/GH_Hair_Shoulderpad:transform16
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83/GH_Hair_Shoulderpad:transform17
+        weight: 1
+      - path: GH_Knife
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MeleeAttack
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boss3:FP3
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50/Boss3:transform2
+        weight: 1
+      - path: Boss3:group3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3/GH_FAce
+        weight: 1
+      - path: Boss3:joint36
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29/Boss3:joint30
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34/Boss3:joint35
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42/Boss3:joint43
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51/Boss3:joint52
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55/Boss3:joint56
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/GH_LeftBracelet
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64/Boss3:joint65
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68/Boss3:joint69
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78/Boss3:joint79
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88/Boss3:joint89
+        weight: 1
+      - path: Boss3:nurbsCircle34
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22/GH_ShoulderArmor
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43/GH_Hair1
+        weight: 1
+      - path: Boss3:pCube12
+        weight: 1
+      - path: Boss3:pCube12/Boss3:transform1
+        weight: 1
+      - path: Boss3:pCube13
+        weight: 1
+      - path: Boss3:pCube13/Boss3:transform3
+        weight: 1
+      - path: Boss3:pCube14
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73/GH_Bracer
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_LeftBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_RightBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:transform4
+        weight: 1
+      - path: Boss3:pCube14/GH_Body
+        weight: 1
+      - path: Boss3:pCube14/GH_LeftHand
+        weight: 1
+      - path: Boss3:pCube14/GH_RightBraclet
+        weight: 1
+      - path: Boss3:pCube14/GH_RightHand
+        weight: 1
+      - path: GH_Cape
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1/GH_Hair_Shoulderpad:transform15
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84/GH_Hair_Shoulderpad:transform14
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:transform11
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1/GH_Hair_Shoulderpad:transform13
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82/GH_Hair_Shoulderpad:transform12
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:transform10
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81/GH_Hair_Shoulderpad:transform16
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83/GH_Hair_Shoulderpad:transform17
+        weight: 1
+      - path: GH_Knife
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RangedAttack
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boss3:FP3
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50/Boss3:transform2
+        weight: 1
+      - path: Boss3:group3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3/GH_FAce
+        weight: 1
+      - path: Boss3:joint36
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29/Boss3:joint30
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34/Boss3:joint35
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42/Boss3:joint43
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51/Boss3:joint52
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55/Boss3:joint56
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/GH_LeftBracelet
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64/Boss3:joint65
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68/Boss3:joint69
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78/Boss3:joint79
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88/Boss3:joint89
+        weight: 1
+      - path: Boss3:nurbsCircle34
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22/GH_ShoulderArmor
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43/GH_Hair1
+        weight: 1
+      - path: Boss3:pCube12
+        weight: 1
+      - path: Boss3:pCube12/Boss3:transform1
+        weight: 1
+      - path: Boss3:pCube13
+        weight: 1
+      - path: Boss3:pCube13/Boss3:transform3
+        weight: 1
+      - path: Boss3:pCube14
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73/GH_Bracer
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_LeftBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_RightBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:transform4
+        weight: 1
+      - path: Boss3:pCube14/GH_Body
+        weight: 1
+      - path: Boss3:pCube14/GH_LeftHand
+        weight: 1
+      - path: Boss3:pCube14/GH_RightBraclet
+        weight: 1
+      - path: Boss3:pCube14/GH_RightHand
+        weight: 1
+      - path: GH_Cape
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1/GH_Hair_Shoulderpad:transform15
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84/GH_Hair_Shoulderpad:transform14
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:transform11
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1/GH_Hair_Shoulderpad:transform13
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82/GH_Hair_Shoulderpad:transform12
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:transform10
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81/GH_Hair_Shoulderpad:transform16
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83/GH_Hair_Shoulderpad:transform17
+        weight: 1
+      - path: GH_Knife
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Skill_Teleport
+      takeName: Take 001
+      firstFrame: 105
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boss3:FP3
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50/Boss3:transform2
+        weight: 1
+      - path: Boss3:group3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3/GH_FAce
+        weight: 1
+      - path: Boss3:joint36
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29/Boss3:joint30
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34/Boss3:joint35
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42/Boss3:joint43
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51/Boss3:joint52
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55/Boss3:joint56
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/GH_LeftBracelet
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64/Boss3:joint65
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68/Boss3:joint69
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78/Boss3:joint79
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88/Boss3:joint89
+        weight: 1
+      - path: Boss3:nurbsCircle34
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22/GH_ShoulderArmor
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43/GH_Hair1
+        weight: 1
+      - path: Boss3:pCube12
+        weight: 1
+      - path: Boss3:pCube12/Boss3:transform1
+        weight: 1
+      - path: Boss3:pCube13
+        weight: 1
+      - path: Boss3:pCube13/Boss3:transform3
+        weight: 1
+      - path: Boss3:pCube14
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73/GH_Bracer
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_LeftBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_RightBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:transform4
+        weight: 1
+      - path: Boss3:pCube14/GH_Body
+        weight: 1
+      - path: Boss3:pCube14/GH_LeftHand
+        weight: 1
+      - path: Boss3:pCube14/GH_RightBraclet
+        weight: 1
+      - path: Boss3:pCube14/GH_RightHand
+        weight: 1
+      - path: GH_Cape
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1/GH_Hair_Shoulderpad:transform15
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84/GH_Hair_Shoulderpad:transform14
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:transform11
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1/GH_Hair_Shoulderpad:transform13
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82/GH_Hair_Shoulderpad:transform12
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:transform10
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81/GH_Hair_Shoulderpad:transform16
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83/GH_Hair_Shoulderpad:transform17
+        weight: 1
+      - path: GH_Knife
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Skill_KnifeBarrage
+      takeName: Take 001
+      firstFrame: 165
+      lastFrame: 225
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boss3:FP3
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50/Boss3:transform2
+        weight: 1
+      - path: Boss3:group3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3/GH_FAce
+        weight: 1
+      - path: Boss3:joint36
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29/Boss3:joint30
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34/Boss3:joint35
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42/Boss3:joint43
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51/Boss3:joint52
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55/Boss3:joint56
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/GH_LeftBracelet
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64/Boss3:joint65
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68/Boss3:joint69
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78/Boss3:joint79
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88/Boss3:joint89
+        weight: 1
+      - path: Boss3:nurbsCircle34
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22/GH_ShoulderArmor
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43/GH_Hair1
+        weight: 1
+      - path: Boss3:pCube12
+        weight: 1
+      - path: Boss3:pCube12/Boss3:transform1
+        weight: 1
+      - path: Boss3:pCube13
+        weight: 1
+      - path: Boss3:pCube13/Boss3:transform3
+        weight: 1
+      - path: Boss3:pCube14
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73/GH_Bracer
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_LeftBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_RightBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:transform4
+        weight: 1
+      - path: Boss3:pCube14/GH_Body
+        weight: 1
+      - path: Boss3:pCube14/GH_LeftHand
+        weight: 1
+      - path: Boss3:pCube14/GH_RightBraclet
+        weight: 1
+      - path: Boss3:pCube14/GH_RightHand
+        weight: 1
+      - path: GH_Cape
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1/GH_Hair_Shoulderpad:transform15
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84/GH_Hair_Shoulderpad:transform14
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:transform11
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1/GH_Hair_Shoulderpad:transform13
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82/GH_Hair_Shoulderpad:transform12
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:transform10
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81/GH_Hair_Shoulderpad:transform16
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83/GH_Hair_Shoulderpad:transform17
+        weight: 1
+      - path: GH_Knife
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 230
+      lastFrame: 295
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boss3:FP3
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50/Boss3:transform2
+        weight: 1
+      - path: Boss3:group3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3/GH_FAce
+        weight: 1
+      - path: Boss3:joint36
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29/Boss3:joint30
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34/Boss3:joint35
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42/Boss3:joint43
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51/Boss3:joint52
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55/Boss3:joint56
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/GH_LeftBracelet
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64/Boss3:joint65
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68/Boss3:joint69
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78/Boss3:joint79
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88/Boss3:joint89
+        weight: 1
+      - path: Boss3:nurbsCircle34
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22/GH_ShoulderArmor
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43/GH_Hair1
+        weight: 1
+      - path: Boss3:pCube12
+        weight: 1
+      - path: Boss3:pCube12/Boss3:transform1
+        weight: 1
+      - path: Boss3:pCube13
+        weight: 1
+      - path: Boss3:pCube13/Boss3:transform3
+        weight: 1
+      - path: Boss3:pCube14
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73/GH_Bracer
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_LeftBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_RightBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:transform4
+        weight: 1
+      - path: Boss3:pCube14/GH_Body
+        weight: 1
+      - path: Boss3:pCube14/GH_LeftHand
+        weight: 1
+      - path: Boss3:pCube14/GH_RightBraclet
+        weight: 1
+      - path: Boss3:pCube14/GH_RightHand
+        weight: 1
+      - path: GH_Cape
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1/GH_Hair_Shoulderpad:transform15
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84/GH_Hair_Shoulderpad:transform14
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:transform11
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1/GH_Hair_Shoulderpad:transform13
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82/GH_Hair_Shoulderpad:transform12
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:transform10
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81/GH_Hair_Shoulderpad:transform16
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83/GH_Hair_Shoulderpad:transform17
+        weight: 1
+      - path: GH_Knife
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 310
+      lastFrame: 330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Boss3:FP3
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50
+        weight: 1
+      - path: Boss3:FP3/Boss3:polySurface50/Boss3:transform2
+        weight: 1
+      - path: Boss3:group3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3
+        weight: 1
+      - path: Boss3:group3/Boss3:HEAD_NI_FP1:group/Boss3:HEAD_NI_FP1:pasted__FP3/GH_FAce
+        weight: 1
+      - path: Boss3:joint36
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint26/Boss3:joint27/Boss3:joint28/Boss3:joint29/Boss3:joint30
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint31/Boss3:joint32/Boss3:joint33/Boss3:joint34/Boss3:joint35
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint41/Boss3:joint42/Boss3:joint43
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint49/Boss3:joint50/Boss3:joint51/Boss3:joint52
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/Boss3:joint48/Boss3:joint53/Boss3:joint54/Boss3:joint55/Boss3:joint56
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint44/Boss3:joint45/Boss3:joint46/Boss3:joint47/GH_LeftBracelet
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint62/Boss3:joint63/Boss3:joint64/Boss3:joint65
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint57/Boss3:joint58/Boss3:joint59/Boss3:joint60/Boss3:joint61/Boss3:joint66/Boss3:joint67/Boss3:joint68/Boss3:joint69
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint70/Boss3:joint71/Boss3:joint72/Boss3:joint73/Boss3:joint74/Boss3:joint75/Boss3:joint76/Boss3:joint77/Boss3:joint78/Boss3:joint79
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88
+        weight: 1
+      - path: Boss3:joint36/Boss3:joint37/Boss3:joint39/Boss3:joint40/Boss3:joint80/Boss3:joint81/Boss3:joint82/Boss3:joint83/Boss3:joint84/Boss3:joint85/Boss3:joint86/Boss3:joint87/Boss3:joint88/Boss3:joint89
+        weight: 1
+      - path: Boss3:nurbsCircle34
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle40/Boss3:nurbsCircle22/GH_ShoulderArmor
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43
+        weight: 1
+      - path: Boss3:nurbsCircle34/Boss3:nurbsCircle37/Boss3:nurbsCircle27/Boss3:nurbsCircle35/Boss3:nurbsCircle36/Boss3:nurbsCircle44/Boss3:nurbsCircle43/GH_Hair1
+        weight: 1
+      - path: Boss3:pCube12
+        weight: 1
+      - path: Boss3:pCube12/Boss3:transform1
+        weight: 1
+      - path: Boss3:pCube13
+        weight: 1
+      - path: Boss3:pCube13/Boss3:transform3
+        weight: 1
+      - path: Boss3:pCube14
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface70/Boss3:polySurface73/GH_Bracer
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_LeftBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:polySurface68/Boss3:polySurface69/Boss3:polySurface71/GH_RightBoots
+        weight: 1
+      - path: Boss3:pCube14/Boss3:transform4
+        weight: 1
+      - path: Boss3:pCube14/GH_Body
+        weight: 1
+      - path: Boss3:pCube14/GH_LeftHand
+        weight: 1
+      - path: Boss3:pCube14/GH_RightBraclet
+        weight: 1
+      - path: Boss3:pCube14/GH_RightHand
+        weight: 1
+      - path: GH_Cape
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface83
+          1/GH_Hair_Shoulderpad:transform15
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:polySurface84/GH_Hair_Shoulderpad:transform14
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:HairRec:FP_hair9/GH_Hair_Shoulderpad:transform11
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface81 1/GH_Hair_Shoulderpad:transform13
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:polySurface82/GH_Hair_Shoulderpad:transform12
+        weight: 1
+      - path: GH_Hair_Shoulderpad:FP_hair9/GH_Hair_Shoulderpad:transform10
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface81/GH_Hair_Shoulderpad:transform16
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83
+        weight: 1
+      - path: GH_Hair_Shoulderpad:polySurface83/GH_Hair_Shoulderpad:transform17
+        weight: 1
+      - path: GH_Knife
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -323,6 +2205,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -333,7 +2216,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1
